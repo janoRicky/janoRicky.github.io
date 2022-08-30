@@ -1,0 +1,245 @@
+
+html, body, #root, .wrapper {
+    height: 100% !important;
+    margin: 0;
+    font-family: 'Bellota Text';
+    font-weight: 700;
+}
+
+:root {
+  --clr1: #7cb46b;
+  --clr2: #e8ebe2;
+  --clr3: #56c5ef;
+  --clr4: #4a5845;
+  --clr5: #77C2DE;
+}
+
+/* >>> COLOR */
+.color-1 {
+    color: var(--clr1) !important;
+}
+.color-2 {
+    color: var(--clr2) !important;
+}
+.color-3 {
+    color: var(--clr3) !important;
+}
+.color-4 {
+    color: var(--clr4) !important;
+}
+.color-5 {
+    color: var(--clr5) !important;
+}
+.bg-1 {
+    background-color: var(--clr1) !important;
+}
+.bg-2 {
+    background-color: var(--clr2) !important;
+}
+.bg-3 {
+    background-color: var(--clr3) !important;
+}
+.bg-4 {
+    background-color: var(--clr4) !important;
+}
+.bg-5 {
+    background-color: var(--clr5) !important;
+}
+/* <<< COLOR */
+
+
+
+/* >>> NAVBAR */
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 101;
+
+    padding: 25px 15px;
+
+    background: rgb(232,235,226);
+    background: linear-gradient(180deg, rgba(232,235,226,1) 0%, rgba(232,235,226,1) 75%, rgba(255,255,255,0) 100%);
+}
+.navbar-btn {
+    background-color: rgba(0, 0, 0, 0);
+    color: var(--clr1);
+
+    border: 0;
+    padding: 10px 50px;
+    margin: 50px 5px;
+
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 20px;
+
+    white-space: nowrap;
+}
+.navbar-btn:hover {
+    background-color: var(--clr3);
+    color: var(--clr2);
+    border-radius: 10px;
+}
+/* <<< NAVBAR */
+
+
+/* >>> MAIN */
+.main {
+    overflow: auto;
+    padding-top: 80px;
+    background-color: var(--clr2);
+    height: 100%;
+}
+/* <<< MAIN */
+
+/* >>> CARDS */
+.card-content {
+    border: 1px solid var(--clr4);
+    color: var(--clr3);
+    padding: 25px 35px 15px 35px;
+    margin-top: 25px;
+
+    border-radius: 10px;
+    min-width: 600px;
+    font-size: 20px;
+}
+/* <<< CARDS */
+
+
+
+/* >>> ABOUT ME */
+.about-me {
+    margin-top: 130px;
+    margin-bottom: 120px;
+    padding: 0 100px;
+}
+.about-me .fullname {
+    padding-left: 100px;
+    margin-top: 100px;
+}
+.about-me .i-am {
+    font-size: 25px;
+}
+.about-me .name {
+    font-size: 70px;
+}
+.about-me .title {
+    font-size: 40px;
+}
+.about-me .desc {
+    border: 3px solid var(--clr3);
+    padding: 25px 35px 15px 35px;
+    margin-top: 25px;
+
+    border-radius: 10px;
+    font-size: 20px;
+
+    min-width: 500px;
+    max-width: 800px;
+}
+.about-me .desc-title {
+    background-color: var(--clr2);
+    color: var(--clr3);
+    text-align: center;
+    margin-top: -40px;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+.about-me .desc-content {
+    text-align: center;
+    color: var(--clr1);
+    padding: 60px 0;
+}
+/* <<< ABOUT ME */
+
+
+/* >>> SKILLS */
+.skills {
+    margin-top: 65px;
+    margin-bottom: 120px;
+    padding: 0 100px;
+}
+.skills .label {
+    text-align: center;
+}
+.skills .label-title {
+    color: var(--clr3);
+    font-weight: 700;
+}
+.skills .label-title-hr {
+    border-width: 6px;
+    color: var(--clr3);
+}
+
+.skills .label-hr {
+    border-width: 4px;
+    color: var(--clr1);
+}
+.skills .label-star {
+    font-size: 30px;
+    margin: 0 5px;
+    color: var(--clr1);
+}
+
+
+.skills .skill-block {
+    font-size: 25px;
+    padding: 8px 20px;
+    border-radius: 3px;
+    margin-bottom: 10px;
+}
+.skills .sb-1 {
+    background-color: var(--clr3);
+    color: var(--clr2);
+}
+.skills .sb-2 {
+    background-color: var(--clr1);
+    color: var(--clr2);
+}
+/* <<< SKILLS */
+
+
+@media (max-width: 576px) {
+    .about-me .desc {
+        min-width: 200px;
+    }
+}
+
+@media (max-width: 768px) {
+    .navbar {
+        padding: 15px 5px;
+    }
+    .navbar-btn {
+        padding: 7px 30px;
+    }
+
+    .about-me {
+        margin-top: 0;
+        padding: 0 10px;
+    }
+    .about-me .fullname {
+        padding-left: 30px;
+        margin-top: 100px;
+    }
+    .about-me .name {
+        font-size: 55px;
+    }
+    .about-me .title {
+        font-size: 30px;
+    }
+    .about-me .desc-content {
+        text-align: center;
+        color: var(--clr1);
+        padding: 20px 0;
+    }
+}
+
+@media (max-width: 992px) {
+}
+
+@media (max-width: 1200px) {
+}
+
+@media (max-width: 1400px) {
+}
