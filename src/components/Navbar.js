@@ -19,12 +19,12 @@ export default function Navbar() {
           </Link>
         </div>
         <div className="col-auto my-1">
-          <Link className="navbar-btn" to="/">
+          <Link className="navbar-btn" to="/projects">
             PROJECTS
           </Link>
         </div>
         <div className="col-auto my-1">
-          <Link className="navbar-btn" to="/">
+          <Link className="navbar-btn" to="/contact">
             CONTACT
           </Link>
         </div>

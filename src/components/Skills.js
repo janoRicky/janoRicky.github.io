@@ -72,22 +72,22 @@ export default function Skills() {
         <div className="row justify-content-center my-2">
           <div className="col-auto">
             <div className="skill-block sb-2">
-              Laravel 9
+              Laravel
             </div>
           </div>
           <div className="col-auto">
             <div className="skill-block sb-2">
-              CodeIgniter 3
+              CodeIgniter
             </div>
           </div>
           <div className="col-auto">
             <div className="skill-block sb-2">
-              jQuery 3.6
+              jQuery
             </div>
           </div>
           <div className="col-auto">
             <div className="skill-block sb-2">
-              Bootstrap 5
+              Bootstrap
             </div>
           </div>
         </div>
