@@ -24,7 +24,7 @@ export default function Skills() {
       </div>
 
       {/*==============================================================*/}
-      <div className="row justify-content-center">
+      <div className="row justify-content-center mt-1 mb-5">
         <div className="col-12 label">
           <div className="row">
             <div className="col">
@@ -127,7 +127,7 @@ export default function Skills() {
       {/*==============================================================*/}
 
       {/*==============================================================*/}
-      <div className="row justify-content-center">
+      <div className="row justify-content-center mt-1 mb-5">
         <div className="col-12 label">
           <div className="row">
             <div className="col">
@@ -178,7 +178,7 @@ export default function Skills() {
       {/*==============================================================*/}
 
       {/*==============================================================*/}
-      <div className="row justify-content-center">
+      <div className="row justify-content-center mt-1 mb-5">
         <div className="col-12 label">
           <div className="row">
             <div className="col">
