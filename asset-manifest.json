@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.66d837f6.css",
-    "main.js": "/static/js/main.04b3a542.js",
+    "main.js": "/static/js/main.a0348f1f.js",
     "static/media/bootstrap-icons.woff?": "/static/media/bootstrap-icons.e559bf06bc84fd9525e6.woff",
     "static/media/bootstrap-icons.woff2?": "/static/media/bootstrap-icons.ea98e12d2d58747f9fc5.woff2",
     "static/media/bellota-text-all-400-normal.woff": "/static/media/bellota-text-all-400-normal.a6b4700f466d1747761e.woff",
@@ -11,10 +11,10 @@
     "static/media/bellota-text-vietnamese-400-normal.woff2": "/static/media/bellota-text-vietnamese-400-normal.837769dc84d18fcf9bd8.woff2",
     "index.html": "/index.html",
     "main.66d837f6.css.map": "/static/css/main.66d837f6.css.map",
-    "main.04b3a542.js.map": "/static/js/main.04b3a542.js.map"
+    "main.a0348f1f.js.map": "/static/js/main.a0348f1f.js.map"
   },
   "entrypoints": [
     "static/css/main.66d837f6.css",
-    "static/js/main.04b3a542.js"
+    "static/js/main.a0348f1f.js"
   ]
 }
