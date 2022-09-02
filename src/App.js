@@ -1,4 +1,4 @@
-import React, { useState, useRef } from 'react';
+import React, { useState, useRef, useEffect } from 'react';
 import {
   BrowserRouter,
   Routes,
@@ -46,6 +46,11 @@ function App() {
   //   const newTodos = [...todos].filter(todo => !todo.complete)
   //   setTodos(newTodos)
   // }
+
+  useEffect(() => {
+      document.title = 'janoRicky'
+  }, []);
+
 
   return (
     <div className="wrapper">
