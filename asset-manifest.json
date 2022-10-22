@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.66d837f6.css",
-    "main.js": "/static/js/main.a0348f1f.js",
+    "main.css": "/static/css/main.e7ba4540.css",
+    "main.js": "/static/js/main.d2a7fe69.js",
     "static/media/bootstrap-icons.woff?": "/static/media/bootstrap-icons.e559bf06bc84fd9525e6.woff",
     "static/media/bootstrap-icons.woff2?": "/static/media/bootstrap-icons.ea98e12d2d58747f9fc5.woff2",
     "static/media/bellota-text-all-400-normal.woff": "/static/media/bellota-text-all-400-normal.a6b4700f466d1747761e.woff",
@@ -10,11 +10,11 @@
     "static/media/bellota-text-cyrillic-400-normal.woff2": "/static/media/bellota-text-cyrillic-400-normal.0a6d5da951dc2b5f4b2c.woff2",
     "static/media/bellota-text-vietnamese-400-normal.woff2": "/static/media/bellota-text-vietnamese-400-normal.837769dc84d18fcf9bd8.woff2",
     "index.html": "/index.html",
-    "main.66d837f6.css.map": "/static/css/main.66d837f6.css.map",
-    "main.a0348f1f.js.map": "/static/js/main.a0348f1f.js.map"
+    "main.e7ba4540.css.map": "/static/css/main.e7ba4540.css.map",
+    "main.d2a7fe69.js.map": "/static/js/main.d2a7fe69.js.map"
   },
   "entrypoints": [
-    "static/css/main.66d837f6.css",
-    "static/js/main.a0348f1f.js"
+    "static/css/main.e7ba4540.css",
+    "static/js/main.d2a7fe69.js"
   ]
 }
