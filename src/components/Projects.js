@@ -73,11 +73,6 @@ export default function Projects() {
                   </div>
                   <div className="col-auto">
                     <div className="skill-block sb-1">
-                      JavaScript
-                    </div>
-                  </div>
-                  <div className="col-auto">
-                    <div className="skill-block sb-1">
                       React.js
                     </div>
                   </div>
