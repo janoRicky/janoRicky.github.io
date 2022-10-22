@@ -154,6 +154,26 @@ export default function Skills() {
               Lua
             </div>
           </div>
+          <div className="col-auto">
+            <div className="skill-block sb-1">
+              React.JS
+            </div>
+          </div>
+          <div className="col-auto">
+            <div className="skill-block sb-1">
+              Express.JS
+            </div>
+          </div>
+          <div className="col-auto">
+            <div className="skill-block sb-1">
+              Node.JS
+            </div>
+          </div>
+          <div className="col-auto">
+            <div className="skill-block sb-1">
+              PostgreSQL
+            </div>
+          </div>
         </div>
 
         <div className="row justify-content-center my-2">

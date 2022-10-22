@@ -36,6 +36,76 @@ export default function Projects() {
               <div className="col-12 col-xl-auto text-center">
                 <div className="row justify-content-center">
                   <div className="col">
+                    <img className="project-block-img" src="/img/projects/pern-notepad-1.jpg" />
+                  </div>
+                </div>
+                <div className="row justify-content-center">
+                  <div className="col pt-3 pb-1">
+                    <a className="project-block-btn rounded-pill" target="_blank" rel="noopener noreferrer" href="https://github.com/janoRicky/pern_note_taker">
+                      <i className="bi bi-github" /> REPO
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div className="col-12 col-xl">
+                <div className="row justify-content-center my-2">
+                  <div className="col project-block-head">
+                    PERN Notepad
+                  </div>
+                </div>
+                <div className="row justify-content-center my-2">
+                  <div className="col project-block-desc">
+                    A simple app for note taking.
+                    <br />
+                    Has simple CRUD functions. A simple project made as a learning introduction to the PERN stack.
+                  </div>
+                </div>
+                <div className="row justify-content-center my-2">
+                  <div className="col-auto">
+                    <div className="skill-block sb-1">
+                      PostgreSQL
+                    </div>
+                  </div>
+                  <div className="col-auto">
+                    <div className="skill-block sb-1">
+                      Express.js
+                    </div>
+                  </div>
+                  <div className="col-auto">
+                    <div className="skill-block sb-1">
+                      JavaScript
+                    </div>
+                  </div>
+                  <div className="col-auto">
+                    <div className="skill-block sb-1">
+                      React.js
+                    </div>
+                  </div>
+                  <div className="col-auto">
+                    <div className="skill-block sb-1">
+                      Node.js
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+      {/*==============================================================*/}
+
+      {/*==============================================================*/}
+      <div className="row justify-content-center mt-1 mb-5">
+
+        <div className="col-12 col-sm-11 col-md-9 col-lg-8 mx-auto">
+          <div className="project-block">
+
+            <div className="row align-items-center">
+              <div className="col-12 col-xl-auto text-center">
+                <div className="row justify-content-center">
+                  <div className="col">
                     <img className="project-block-img" src="/img/projects/hermes-4.jpg" />
                   </div>
                 </div>

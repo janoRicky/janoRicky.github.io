@@ -22,9 +22,9 @@ export default function Home() {
               About Me
             </h2>
             <p className="desc-content">
-              I am a computer science graduate with a passion to learn anything related to technology. Through my studying and experience working as a freelance web developer, I have gained significant knowledge and skills on web-based technologies.
+              I am a computer science graduate with experience working as a freelance web developer. I am experienced in both front-end and back-end development as well as using different frameworks such as Laravel and CodeIgniter.
               <br /><br />
-              I enjoy finding solutions to problems and I am confident in my ability to learn new things.
+              I am passionate about my work, I am capable of working and learning independently. I enjoy finding solutions to problems and I have confidence in my ability to learn new technologies and adapt to new situations.
             </p>
           </div>
         </div>
